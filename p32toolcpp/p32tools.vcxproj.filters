@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FTP_header">
+      <UniqueIdentifier>{899dacde-b9bc-4ee8-abd2-80053785dd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP_src">
+      <UniqueIdentifier>{150a1375-689d-4543-8213-383027e0015c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinSocket_src">
+      <UniqueIdentifier>{dc64486a-46a8-46c9-9351-b2570b2cbae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinSocket_header">
+      <UniqueIdentifier>{526896f1-9618-4766-a798-5ea862c700f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml_header">
+      <UniqueIdentifier>{abd0b0cb-522a-464d-aa3b-39d029af7a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml_src">
+      <UniqueIdentifier>{ba8df5eb-317f-45e6-b6cc-eaa334691490}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSocketClient.cpp">
+      <Filter>WinSocket_src</Filter>
+    </ClCompile>
+    <ClCompile Include="WinSocketServer.cpp">
+      <Filter>WinSocket_src</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpCtrl.cpp">
+      <Filter>FTP_src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>TinyXml_src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>TinyXml_src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>TinyXml_src</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>TinyXml_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSocketClient.h">
+      <Filter>WinSocket_header</Filter>
+    </ClInclude>
+    <ClInclude Include="WinSocketServer.h">
+      <Filter>WinSocket_header</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpCtrl.h">
+      <Filter>FTP_header</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TinyXml_header</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TinyXml_header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="appIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
